@@ -38,7 +38,7 @@ public class SearchViewActivity extends AppCompatActivity implements SearchView.
         searchView.setOnCloseListener(this);
 
         mListView = (ListView) findViewById(R.id.list);
-        //inspectionDate = (TextView) findViewById(R.id.inspectionDate);
+        inspectionDate = (TextView) findViewById(R.id.inspectionDate);
         displayDate();
 
         mDbHelper = new CustomersDbAdapter(this);
